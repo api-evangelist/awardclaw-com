@@ -1,4 +1,4 @@
-# awardclaw-com
+# AwardClaw
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-awardclaw-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://awardclaw.com/
+AwardClaw is a 24/7 award travel research service that scans eight airline loyalty programs every three hours for saver‑priced business and first‑class award seats, aggregates news, credit‑card offers, and community insights into a daily briefing, and provides real‑time drop alerts via email and a JSON API for Pro users.
+
+**Areas:** travel · awards · airline · flight-deals · automation · newsletter
+
+## AwardClaw on APIs.io
+
+Everything profiled for AwardClaw is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/awardclaw-com/](https://apis.io/providers/awardclaw-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [AwardClaw Availability API](https://apis.io/apis/awardclaw-com/awardclaw-com-availability-api/) — The Availability API from AwardClaw — 1 operation(s) for availability.
+- [AwardClaw Briefing API](https://apis.io/apis/awardclaw-com/awardclaw-com-briefing-api/) — The Briefing API from AwardClaw — 1 operation(s) for briefing.
+- [AwardClaw Cards API](https://apis.io/apis/awardclaw-com/awardclaw-com-cards-api/) — The Cards API from AwardClaw — 1 operation(s) for cards.
+- [AwardClaw Drops API](https://apis.io/apis/awardclaw-com/awardclaw-com-drops-api/) — The Drops API from AwardClaw — 2 operation(s) for drops.
+- [AwardClaw Me API](https://apis.io/apis/awardclaw-com/awardclaw-com-me-api/) — The Me API from AwardClaw — 1 operation(s) for me.
+- [AwardClaw News API](https://apis.io/apis/awardclaw-com/awardclaw-com-news-api/) — The News API from AwardClaw — 1 operation(s) for news.
+- [AwardClaw Watches API](https://apis.io/apis/awardclaw-com/awardclaw-com-watches-api/) — The Watches API from AwardClaw — 1 operation(s) for watches.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Awardclaw Com Agentic Access](https://apis.io/agentic-access/awardclaw-com/awardclaw-com-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Drop](https://apis.io/schemas/awardclaw-com/awardclaw-com-drop/)
+- [WatchInput](https://apis.io/schemas/awardclaw-com/awardclaw-com-watch-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Awardclaw Com Context](https://apis.io/jsonld/awardclaw-com/awardclaw-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AwardClaw API Rules](https://apis.io/rules/awardclaw-com/awardclaw-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Awardclaw Com Authentication](https://apis.io/security/awardclaw-com/awardclaw-com-authentication/)
+- [Awardclaw Com Domain Security](https://apis.io/security/awardclaw-com/awardclaw-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Awardclaw Com Plans Pricing](https://apis.io/plans/awardclaw-com/awardclaw-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Awardclaw Com Rate Limits](https://apis.io/rate-limits/awardclaw-com/awardclaw-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.awardclaw.com/)
+- [Documentation](https://www.awardclaw.com/developers)
+- [Getting started](https://www.awardclaw.com/developers)
+- [API reference](https://www.awardclaw.com/developers)
+- [Pricing](https://www.awardclaw.com/upgrade?from=pricing)
+- [Sign up](https://www.awardclaw.com/login)
+- [Support](https://www.awardclaw.com/contact)
+- [Blog](https://www.awardclaw.com/blog)
+- [Terms of service](https://www.awardclaw.com/terms)
+- [Privacy policy](https://www.awardclaw.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.4** — strong · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 52.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 33.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/awardclaw-com/](https://apis.io/providers/awardclaw-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AwardClaw: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/awardclaw-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
